@@ -1,0 +1,331 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Page 1 - Linda Yesso</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-container" >
+                <div class="container" style="position: relative;">
+                    <img src="images/logo.jpg" width="100" height="100" alt="logo du dite">
+                    <form>
+                        <input class="recherhe" type="text" placeholder="Mots clés ici">
+                        <button>Rechercher</button>
+                    </form>
+                    <p style="position: absolute;top:0px;right:0px;">
+                        <a href="#"><img src="images/fb.png" width="30" height="30" alt=""></a>
+                        <a href="#"><img src="images/twitter.png" width="30" height="30" alt=""></a>
+                        <a href="#"><img src="images/linkedIn.png" width="30" height="30" alt=""></a>
+                        <a href="#"><img src="images/whatsapp.png" width="30" height="30" alt=""></a>
+                    </p>
+                </div>
+            </div>
+            <div id="menu-container">
+                <div class="container"> 
+                    <a href="" class="nav-link">Acceuil candidat</a>
+                    <a href="" class="nav-link">Rechercher un emploi</a>
+                    <a href="" class="nav-link">Ils recrutrent</a>
+                    <a href="" class="nav-link">Acceuil recriteur</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <section class="part1">
+                    <div class="left">
+                        
+                        <div class="nbre-total">
+                            <div class="nbre">
+                                0
+                            </div>
+                            <div class="text-detail">
+                                Le nombre total d'offres d'emploi toutes categories confondues
+                            </div>
+                        </div>
+                        <div class="cv">
+                            <div class="image">
+                                <img src="images/cv-logo.jpg" width="300" height="200" alt="">
+                            </div>
+                            <div class="upload-cv">
+                                <h2>Postez votre cv ici</h2>
+                                <p>01. Rend ton cv privé, trouvable par des employeurs</p>
+                                <p>02. Obtiens des r&commendatiobs d'emploi basés sur ton cv</p>
+                                <p>03. Laisse les employeurs te trouver dans notre base de données</p>
+                                <div style="margin-top: 20px;">
+                                    <button>Poste un cv</button>
+                                    <button>Upload un cv</button>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="right">
+                        <h2>Ajouter une offre d'emploi</h2>
+                        <form>
+                            <p><input id="titre" type="text" placeholder="titre"></p>
+                            <p><input id="date_valide" type="date" placeholder="validité"></p>
+                            <p>
+                                <select id="categorie" name="" id="">
+                                    <option value=""></option>
+                                    <option value="1">    Achats</option>
+                                    <option value="2"> Commercial, vente</option>
+                                    <option value="3">Gestion, comptabilité, finance </option>
+                                    <option value="4">Informatique, nouvelles technologies</option>
+                                    <option value="5">Juridique</option>
+                                    <option value="6">Management, direction générale</option>
+                                    <option value="7">Marketing, communication</option>
+                                    <option value="8">Métiers de la santé et du social</option>
+                                    <option value="9">Métiers des services</option>
+                                    <option value="10">Métiers du BTP</option>
+                                    <option value="11">Production, maintenance, qualité</option>
+                                    <option value="12">R&D, gestion de projets</option>
+                                    <option value="13">RH, formation</option>
+                                    <option value="14">Secretariat, assistanat</option>
+                                    <option value="15">Tourisme, hôtellerie, restauration</option>
+                                    <option value="16">Transport, logistique</option>
+                                </select>
+                            </p>
+                            <p>
+                                <textarea id="desc" name="" placeholder="une description"></textarea>
+                            </p>
+                            <p>
+                                <button id="btn_add" class="btn">Valider</button>
+                            </p>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+            <div class="container">
+                <section class="part2">
+                    <div class="left">
+                        <div class="boxes">
+                            <div class="box">
+                                <h3>Métiers du BTP</h3>
+                                <p>15/10/2020- Développeur</p>
+                                <p style="font-size: 19px;font-family: Arial;">Nous recherchons pour les opérations de recrutement de nos clients des 
+                                    profils de Top et Middle Management.</p>
+                            </div>
+                            <div class="box">
+                                <h3>Gestion, comptabilité</h3>
+                                <p>20/10/2020- Développeu</p>
+                                <p style="font-size: 19px;font-family: Arial;">Nous recherchons pour les opérations de recrutement de nos clients des 
+                                    profils de Top et Middle Management.</p>
+                            </div>
+                            <div class="box"><h3>Informatique</h3>
+                                <p>10/11/2020- Développeur</p>
+                                <p style="font-size: 19px;font-family: Arial;">Nous recherchons pour les opérations de recrutement de nos clients des 
+                                    profils de Top et Middle Management.</p></div>
+                            <div class="box">
+                                <h3>Métiers du BTP</h3>
+                                <p>01/11/2020- Développeu</p>
+                                <p style="font-size: 19px;font-family: Arial;">Nous recherchons pour les opérations de recrutement de nos clients des 
+                                    profils de Top et Middle Management.</p>
+                            </div>
+                        </div>
+                        <div class="par-categories">
+                            <h2>Offres d'emploi par catégories</h2>
+                            <div class="table">
+                                <table id="table">
+                                    <tr>
+                                        <th>Numero</th>
+                                        <th>Titre</th>
+                                        <th>Validité</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h2>Liste des différentes catégories</h2>
+                        <div>
+                            <p id="1">
+                                Achats ( <span class="count">0</span> )</p>
+                            <p id="2">
+                                Commercial, vente ( <span class="count">0</span> )</p>
+                            <p id="3">
+                                Gestion, comptabilité, finance ( <span class="count">0</span> )</p>
+                            
+                            <p id="4">
+                                Informatique, nouvelles technologies ( <span class="count">0</span> )</p>
+                            <p id="5">
+                                Juridique ( <span class="count">0</span> )</p>
+                            <p id="6">
+                                Management, direction générale ( <span class="count">0</span> )</p>
+                            <p id="7">
+                                Marketing, communication ( <span class="count">0</span> )</p>
+                            <p id="8">
+                                Métiers de la santé et du social ( <span class="count">0</span> ) </p>
+                            <p id="9">
+                                Métiers des services ( <span class="count">0</span> )</p>
+                            <p id="10">
+                                Métiers du BTP ( <span class="count">0</span> )</p>
+                            <p id="11">
+                                Production, maintenance, qualité ( <span class="count">0</span> ) </p>
+                            <p id="12">
+                                R&D, gestion de projets ( <span class="count">0</span> )</p>
+                            <p id="13">
+                                RH, formation ( <span class="count">0</span> ) </p>
+                            <p id="14">
+                                Secretariat, assistanat ( <span class="count">0</span> ) </p>
+                            <p id="15">
+                                Tourisme, hôtellerie, restauration ( <span class="count">0</span> )</p>
+                            <p id="16">
+                                Transport, logistique ( <span class="count">0</span> )</p>
+                         </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="box">
+                    <h3>OFFRES D'EMPLOI PAR METIER</h3>
+                    <ul>
+                        <li> <a href="">
+                            Achats Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Commercial, vente Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Gestion, comptabilité, finance Côte d´ivoire</a>
+                        </li>
+                        <li><a href="">
+                            Informatique, nouvelles technologies Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Juridique Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Management, direction générale Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Marketing, communication Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Métiers de la santé et du social Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Métiers des services Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Métiers du BTP Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Production, maintenance, qualité Côte d´ivoire</a></li>
+                        <li><a href="">
+                            R&D, gestion de projets Côte d´ivoire</a></li>
+                        <li><a href="">
+                            RH, formation Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Secretariat, assistanat Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Tourisme, hôtellerie, restauration Côte d´ivoire</a></li>
+                        <li><a href="">
+                            Transport, logistique Côte d´ivoire</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>OFFRES D'EMPLOI PAR REGION</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Offres d´emploi Abengourou</a>  </li>
+                                <li>    <a href="">
+                                Offres d´emploi Abidjan</a>  </li>
+                                <li>   <a href="">
+                                Offres d´emploi Aboisso</a>  </li>
+                                <li> <a href="">
+                                Offres d´emploi Adzopé</a>  </li>
+                                <li> <a href="">
+                                Offres d´emploi Agboville</a>  </li>
+                                <li> <a href="">
+                                Offres d´emploi Bondoukou</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Bongouanou</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Bouaflé</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Bouaké</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Bouna</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Boundiali</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Dabou</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Daloa</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Daoukro</a>  </li>
+                                <li> <a href="">
+                                Offres d´emploi Dimbokro</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Divo</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Duékoué</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Ferkessédougou</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Gagnoa</a>  </li>
+                                <!-- 
+                                <li><a href="">
+                                Offres d´emploi Guiglo</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Katiola</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Korhogo</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Man</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Mankono</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Minignan</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Odienné</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi San-Pédro</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Sassandra</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Séguéla</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Soubré</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Touba</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Toumodi</a>  </li>
+                                <li><a href="">
+                                Offres d´emploi Yamoussoukro</a> -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>INDEX DES EMPLOIS</h2>
+                    <p>
+                        Métiers : A-BCD-EF-LM-OP-RS-W <br>
+                        Secteurs d´activité : A-E F G-P Q-W <br>
+                        Compétences IT : 1-9 A-D E-L M-R S-Z <br>
+                        Villes <br>
+                        Ingénieurs <br>
+                        Emplois actifs <br>
+                    </p> <br> <br>
+                    <h3>INDEX DES RECRUTEMENTS</h3>
+                    <p>
+                        Métiers : A-B C D-E F-L M-O P-R S-W 
+                        Secteurs d´activité : A-E F G-P Q-W 
+                        Compétences IT : 1-9 A-D E-L M-R S-Z 
+                        Ingénieurs
+                        Villes
+                        Recrutements permanents
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                Copyright ©2020 Linda Yesso - Tous droits réservés
+            </div>
+            
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
